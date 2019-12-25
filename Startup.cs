@@ -21,7 +21,8 @@ namespace Mycourse
             //  services.AddMvc(option => option.EnableEndpointRouting = false) ;
              services.AddMvc(option => 
              {
-             option.EnableEndpointRouting = false ;   
+             option.EnableEndpointRouting = false ;  
+              
              });       
         }
 
